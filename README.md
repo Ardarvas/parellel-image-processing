@@ -19,20 +19,20 @@ This project demonstrates a parallel image processing application in C++ using *
 ## Installation and Usage
 
 ### 1. Clone the repository
- git clone https://github.com/ardarvas/parallel-image-processing.git
- cd parallel-image-processing
+- git clone https://github.com/ardarvas/parallel-image-processing.git
+- cd parallel-image-processing
 
 
 ###  2. Build the project
 
-mkdir build
-cd build
-cmake ..
-make
+- mkdir build
+- cd build
+- cmake ..
+- make
 
 ### 3. Run the application
 
-./ParallelImageProcessing <input_file> <output_file> <process_type>
+- ./ParallelImageProcessing <input_file> <output_file> <process_type>
 
 ## Example:
 
@@ -40,12 +40,12 @@ make
 
 
 ## Process Types
-grayscale: Converts the image to grayscale.
-blur: Applies Gaussian blur to the image.
-edge: Detects edges in the image using the Canny algorithm.
+- grayscale: Converts the image to grayscale.
+- blur: Applies Gaussian blur to the image.
+- edge: Detects edges in the image using the Canny algorithm.
 
 ## Performance
-The application leverages parallelism to reduce processing time for large images. Thread count is dynamically adjusted based on available CPU cores.
+- The application leverages parallelism to reduce processing time for large images. Thread count is dynamically adjusted based on available CPU cores.
 
 
 
